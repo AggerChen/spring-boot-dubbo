@@ -24,7 +24,6 @@
         <dubbo.version>2.7.5</dubbo.version>
         <zookeeper.version>3.4.14</zookeeper.version>
         <spring.version>5.2.2.RELEASE</spring.version>
-        <spring_version>${spring.version}</spring_version>
         <dubbo.common>0.0.1-SNAPSHOT</dubbo.common>
     </properties>
 

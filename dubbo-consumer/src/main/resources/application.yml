@@ -1,0 +1,14 @@
+server:
+  port: 8088
+
+dubbo:
+  application:
+    name: dubbo-consumer  # 应用名称
+    owner: aggerChen      # 应用所属者
+    organization: agger   # 应用所属组织
+  registry:
+    id: zookeeper-registry #注册中心id
+    protocol: zookeeper    #注册中心协议
+    address: zookeeper://127.0.0.1:2181 #注册中心地址
+  monitor:
+    protocol: registry # 注册监控中心
